@@ -1,6 +1,7 @@
 /*
  * Helper Boltic Player - MasterCast Application for Online Radios 
  * Copyrights: Duane Mafra - duanemafra@gmail.com
+ maoe 2
  */
 
 (function(window){
