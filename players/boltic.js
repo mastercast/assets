@@ -50,7 +50,6 @@
     					}
     					
     					var urlJSON = protocolo+'.mastercast.com.br/assets/player/json/'+keyPlayer+'.json';
-    					console.log(urlJSON);
     					$.getJSON(urlJSON,function(dadosPlayer){													  
 					  		playerBoltic(dadosPlayer);
 						});
