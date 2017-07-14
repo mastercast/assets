@@ -4,4 +4,56 @@
  maoe
  */
 
-var _0x3961=["\x6C\x69\x6E\x6B","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x68\x72\x65\x66","\x74\x79\x70\x65","\x74\x65\x78\x74\x2F\x63\x73\x73","\x72\x65\x6C","\x73\x74\x79\x6C\x65\x73\x68\x65\x65\x74","\x6D\x65\x64\x69\x61","\x61\x6C\x6C","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x68\x65\x61\x64","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x54\x61\x67\x4E\x61\x6D\x65","\x73\x63\x72\x69\x70\x74","\x73\x72\x63","\x74\x65\x78\x74\x2F\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74","\x2F\x2F\x63\x64\x6E\x2E\x72\x61\x77\x67\x69\x74\x2E\x63\x6F\x6D\x2F\x6D\x61\x73\x74\x65\x72\x63\x61\x73\x74\x2F\x61\x73\x73\x65\x74\x73\x2F\x6D\x61\x73\x74\x65\x72\x2F\x70\x6C\x61\x79\x65\x72\x73\x2F\x74\x65\x73\x74\x65\x2D\x34\x2F\x62\x6F\x6C\x74\x69\x63\x2E\x6D\x69\x6E\x2E\x63\x73\x73","\x6A\x51\x75\x65\x72\x79","\x2F\x2F\x61\x6A\x61\x78\x2E\x67\x6F\x6F\x67\x6C\x65\x61\x70\x69\x73\x2E\x63\x6F\x6D\x2F\x61\x6A\x61\x78\x2F\x6C\x69\x62\x73\x2F\x6A\x71\x75\x65\x72\x79\x2F\x33\x2E\x32\x2E\x31\x2F\x6A\x71\x75\x65\x72\x79\x2E\x6D\x69\x6E\x2E\x6A\x73","\x2F\x2F\x63\x64\x6E\x2E\x72\x61\x77\x67\x69\x74\x2E\x63\x6F\x6D\x2F\x6D\x61\x73\x74\x65\x72\x63\x61\x73\x74\x2F\x61\x73\x73\x65\x74\x73\x2F\x6D\x61\x73\x74\x65\x72\x2F\x70\x6C\x61\x79\x65\x72\x73\x2F\x74\x65\x73\x74\x65\x2D\x34\x2F\x62\x6F\x6C\x74\x69\x63\x2E\x6D\x69\x6E\x2E\x6A\x73","\x64\x61\x74\x61\x2D\x70\x6C\x61\x79\x65\x72","\x61\x74\x74\x72","\x73\x63\x72\x69\x70\x74\x5B\x64\x61\x74\x61\x2D\x70\x6C\x61\x79\x65\x72\x5D","\x75\x6E\x64\x65\x66\x69\x6E\x65\x64","\x6C\x65\x6E\x67\x74\x68","\x66\x75\x6E\x63\x74\x69\x6F\x6E","\x2F\x2F\x63\x72\x6F\x73\x73\x6F\x72\x69\x67\x69\x6E\x2E\x6D\x65\x2F\x68\x74\x74\x70\x3A\x2F\x2F\x61\x70\x70\x2E\x6D\x61\x73\x74\x65\x72\x63\x61\x73\x74\x2E\x63\x6F\x6D\x2E\x62\x72\x2F\x61\x73\x73\x65\x74\x73\x2F\x70\x6C\x61\x79\x65\x72\x2F\x6A\x73\x6F\x6E\x2F","\x2E\x6A\x73\x6F\x6E","\x67\x65\x74\x4A\x53\x4F\x4E"];(function(_0xa6c6x1){function _0xa6c6x2(_0xa6c6x3){var _0xa6c6x4=document[_0x3961[1]](_0x3961[0]);_0xa6c6x4[_0x3961[2]]= _0xa6c6x3;_0xa6c6x4[_0x3961[3]]= _0x3961[4];_0xa6c6x4[_0x3961[5]]= _0x3961[6];_0xa6c6x4[_0x3961[7]]= _0x3961[8];document[_0x3961[11]](_0x3961[10])[0][_0x3961[9]](_0xa6c6x4)}function _0xa6c6x5(_0xa6c6x3){var _0xa6c6x6=document[_0x3961[1]](_0x3961[12]);_0xa6c6x6[_0x3961[13]]= _0xa6c6x3;_0xa6c6x6[_0x3961[3]]= _0x3961[14];document[_0x3961[11]](_0x3961[10])[0][_0x3961[9]](_0xa6c6x6)}_0xa6c6x2(_0x3961[15]);if(!_0xa6c6x1[_0x3961[16]]){_0xa6c6x5(_0x3961[17])};var _0xa6c6x7=setInterval(function(){if(_0xa6c6x1[_0x3961[16]]){clearInterval(_0xa6c6x7);_0xa6c6x5(_0x3961[18]);var _0xa6c6x8=jQuery(_0x3961[21])[_0x3961[20]](_0x3961[19]);if( typeof _0xa6c6x8!= _0x3961[22]&& _0xa6c6x8[_0x3961[23]]== 12){var _0xa6c6x9=setInterval(function(){if( typeof playerBoltic== _0x3961[24]){clearInterval(_0xa6c6x9);var _0xa6c6xa=_0x3961[25]+ _0xa6c6x8+ _0x3961[26];$[_0x3961[27]](_0xa6c6xa,function(_0xa6c6xb){playerBoltic(_0xa6c6xb)})}},500)}}},500)}(window))
+(function(window){
+    
+    function addCssHead(url){
+    	var css = document.createElement('link');	
+    	css.href = url; 
+    	css.type = 'text/css';
+    	css.rel  = 'stylesheet';
+		css.media = 'all';			
+		document.getElementsByTagName('head')[0].appendChild(css);
+    }
+    
+    function addScriptHead(url){
+    	var script = document.createElement('script');
+		script.src = url;   
+		script.type = 'text/javascript';
+		document.getElementsByTagName('head')[0].appendChild(script);
+    }
+    
+    
+    addCssHead('//cdn.rawgit.com/mastercast/assets/master/players/teste-4/boltic.min.css');
+       
+    if(!window.jQuery){
+    	addScriptHead('//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js');
+    }
+    
+    var interval1 = setInterval(function(){
+    	if(window.jQuery){
+    		clearInterval(interval1);
+    		
+    		addScriptHead('//cdn.rawgit.com/mastercast/assets/master/players/teste-4/boltic.min.js');
+    		
+    		var keyPlayer = jQuery('script[data-player]').attr('data-player');    		
+    		
+    		if(typeof keyPlayer != "undefined" && keyPlayer.length == 12){
+    			
+    			var interval2 = setInterval(function(){    				
+    				if(typeof playerBoltic == 'function'){
+    					clearInterval(interval2);
+    					
+    					var urlJSON = 'https://cors-anywhere.herokuapp.com/http://app.mastercast.com.br/assets/player/json/'+keyPlayer+'.json';
+    					$.getJSON(urlJSON,function(dadosPlayer){													  
+					  		playerBoltic(dadosPlayer);
+						});
+						
+					} 
+    			}, 500);
+    			
+    		}
+    		
+    	}    
+	}, 500);
+	
+}(window));
