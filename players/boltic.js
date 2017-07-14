@@ -1,7 +1,6 @@
 /*
  * Helper Boltic Player - MasterCast Application for Online Radios 
  * Copyrights: Duane Mafra - duanemafra@gmail.com
- maoe
  */
 
 (function(window){
@@ -43,7 +42,13 @@
     				if(typeof playerBoltic == 'function'){
     					clearInterval(interval2);
     					
-    					var urlJSON = 'https://cors-anywhere.herokuapp.com/http://app.mastercast.com.br/assets/player/json/'+keyPlayer+'.json';
+    					if(location.protocol == 'https:'){
+    						var cors = 'https://cors-anywhere.herokuapp.com/';
+    					}else{
+    						var cors = '';
+    					}
+    					
+    					var urlJSON = cors+'http://app.mastercast.com.br/assets/player/json/'+keyPlayer+'.json';
     					$.getJSON(urlJSON,function(dadosPlayer){													  
 					  		playerBoltic(dadosPlayer);
 						});
