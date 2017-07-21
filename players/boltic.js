@@ -1,68 +1,7 @@
 /*
  * Helper Boltic Player - MasterCast Application for Online Radios 
  * Copyright: MasterCast => https://mastercast.com.br
- * Version: boltic-1.0.2
+ * Version: boltic-1.0.3
  */
 
-
-(function(window){
-	
-	var versaoBoltic = 'maoe1';
-    
-    function addCssHead(url){
-    	var css = document.createElement('link');	
-    	css.href = url; 
-    	css.type = 'text/css';
-    	css.rel  = 'stylesheet';
-		css.media = 'all';			
-		document.getElementsByTagName('head')[0].appendChild(css);
-    }
-    
-    function addScriptHead(url){
-    	var script = document.createElement('script');
-		script.src = url;   
-		script.type = 'text/javascript';
-		document.getElementsByTagName('head')[0].appendChild(script);
-    }
-    
-    
-    addCssHead('//cdn.rawgit.com/mastercast/assets/master/players/'+versaoBoltic+'/boltic.min.css');
-       
-    if(!window.jQuery){
-    	addScriptHead('//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js');
-    }
-    
-    var interval1 = setInterval(function(){
-    	if(window.jQuery){
-    		clearInterval(interval1);
-    		
-    		addScriptHead('//cdn.rawgit.com/mastercast/assets/master/players/'+versaoBoltic+'/boltic.min.js');
-    		
-    		var keyPlayer = jQuery('script[data-player]').attr('data-player');    		
-    		
-    		if(typeof keyPlayer != "undefined" && keyPlayer.length == 12){
-    			
-    			var interval2 = setInterval(function(){    				
-    				if(typeof playerBoltic == 'function'){
-    					clearInterval(interval2);
-    					
-    					if(location.protocol == 'https:'){
-    						var protocolo = 'https://app-ssl';
-    					}else{
-    						var protocolo = 'http://app';
-    					}
-    					
-    					var urlJSON = protocolo+'.mastercast.com.br/assets/player/json/'+keyPlayer+'.json';
-    					$.getJSON(urlJSON,function(dadosPlayer){													  
-					  		playerBoltic(dadosPlayer);
-						});
-						
-					} 
-    			}, 500);
-    			
-    		}
-    		
-    	}    
-	}, 500);
-	
-}(window));
+var _0x971b=["\x62\x6F\x6C\x74\x69\x63\x2D\x31\x2E\x30\x2E\x33","\x6C\x69\x6E\x6B","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x68\x72\x65\x66","\x74\x79\x70\x65","\x74\x65\x78\x74\x2F\x63\x73\x73","\x72\x65\x6C","\x73\x74\x79\x6C\x65\x73\x68\x65\x65\x74","\x6D\x65\x64\x69\x61","\x61\x6C\x6C","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x68\x65\x61\x64","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x54\x61\x67\x4E\x61\x6D\x65","\x73\x63\x72\x69\x70\x74","\x73\x72\x63","\x74\x65\x78\x74\x2F\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74","\x2F\x2F\x63\x64\x6E\x2E\x72\x61\x77\x67\x69\x74\x2E\x63\x6F\x6D\x2F\x6D\x61\x73\x74\x65\x72\x63\x61\x73\x74\x2F\x61\x73\x73\x65\x74\x73\x2F\x6D\x61\x73\x74\x65\x72\x2F\x70\x6C\x61\x79\x65\x72\x73\x2F","\x2F\x62\x6F\x6C\x74\x69\x63\x2E\x6D\x69\x6E\x2E\x63\x73\x73","\x6A\x51\x75\x65\x72\x79","\x2F\x2F\x61\x6A\x61\x78\x2E\x67\x6F\x6F\x67\x6C\x65\x61\x70\x69\x73\x2E\x63\x6F\x6D\x2F\x61\x6A\x61\x78\x2F\x6C\x69\x62\x73\x2F\x6A\x71\x75\x65\x72\x79\x2F\x33\x2E\x32\x2E\x31\x2F\x6A\x71\x75\x65\x72\x79\x2E\x6D\x69\x6E\x2E\x6A\x73","\x2F\x62\x6F\x6C\x74\x69\x63\x2E\x6D\x69\x6E\x2E\x6A\x73","\x64\x61\x74\x61\x2D\x70\x6C\x61\x79\x65\x72","\x61\x74\x74\x72","\x73\x63\x72\x69\x70\x74\x5B\x64\x61\x74\x61\x2D\x70\x6C\x61\x79\x65\x72\x5D","\x75\x6E\x64\x65\x66\x69\x6E\x65\x64","\x6C\x65\x6E\x67\x74\x68","\x66\x75\x6E\x63\x74\x69\x6F\x6E","\x70\x72\x6F\x74\x6F\x63\x6F\x6C","\x68\x74\x74\x70\x73\x3A","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x61\x70\x70\x2D\x73\x73\x6C","\x68\x74\x74\x70\x3A\x2F\x2F\x61\x70\x70","\x2E\x6D\x61\x73\x74\x65\x72\x63\x61\x73\x74\x2E\x63\x6F\x6D\x2E\x62\x72\x2F\x61\x73\x73\x65\x74\x73\x2F\x70\x6C\x61\x79\x65\x72\x2F\x6A\x73\x6F\x6E\x2F","\x2E\x6A\x73\x6F\x6E","\x67\x65\x74\x4A\x53\x4F\x4E"];(function(_0x4329x1){var _0x4329x2=_0x971b[0];function _0x4329x3(_0x4329x4){var _0x4329x5=document[_0x971b[2]](_0x971b[1]);_0x4329x5[_0x971b[3]]= _0x4329x4;_0x4329x5[_0x971b[4]]= _0x971b[5];_0x4329x5[_0x971b[6]]= _0x971b[7];_0x4329x5[_0x971b[8]]= _0x971b[9];document[_0x971b[12]](_0x971b[11])[0][_0x971b[10]](_0x4329x5)}function _0x4329x6(_0x4329x4){var _0x4329x7=document[_0x971b[2]](_0x971b[13]);_0x4329x7[_0x971b[14]]= _0x4329x4;_0x4329x7[_0x971b[4]]= _0x971b[15];document[_0x971b[12]](_0x971b[11])[0][_0x971b[10]](_0x4329x7)}_0x4329x3(_0x971b[16]+ _0x4329x2+ _0x971b[17]);if(!_0x4329x1[_0x971b[18]]){_0x4329x6(_0x971b[19])};var _0x4329x8=setInterval(function(){if(_0x4329x1[_0x971b[18]]){clearInterval(_0x4329x8);_0x4329x6(_0x971b[16]+ _0x4329x2+ _0x971b[20]);var _0x4329x9=jQuery(_0x971b[23])[_0x971b[22]](_0x971b[21]);if( typeof _0x4329x9!= _0x971b[24]&& _0x4329x9[_0x971b[25]]== 12){var _0x4329xa=setInterval(function(){if( typeof playerBoltic== _0x971b[26]){clearInterval(_0x4329xa);if(location[_0x971b[27]]== _0x971b[28]){var _0x4329xb=_0x971b[29]}else {var _0x4329xb=_0x971b[30]};var _0x4329xc=_0x4329xb+ _0x971b[31]+ _0x4329x9+ _0x971b[32];$[_0x971b[33]](_0x4329xc,function(_0x4329xd){playerBoltic(_0x4329xd)})}},500)}}},500)}(window))
