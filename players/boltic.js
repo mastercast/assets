@@ -3,4 +3,66 @@
  * Copyright: MasterCast => https://mastercast.com.br
  * Version: boltic-1.0.2
  */
-var _0x9dcb=["\x62\x6F\x6C\x74\x69\x63\x2D\x31\x2E\x30\x2E\x32","\x6C\x69\x6E\x6B","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x68\x72\x65\x66","\x74\x79\x70\x65","\x74\x65\x78\x74\x2F\x63\x73\x73","\x72\x65\x6C","\x73\x74\x79\x6C\x65\x73\x68\x65\x65\x74","\x6D\x65\x64\x69\x61","\x61\x6C\x6C","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x68\x65\x61\x64","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x54\x61\x67\x4E\x61\x6D\x65","\x73\x63\x72\x69\x70\x74","\x73\x72\x63","\x74\x65\x78\x74\x2F\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74","\x2F\x2F\x63\x64\x6E\x2E\x72\x61\x77\x67\x69\x74\x2E\x63\x6F\x6D\x2F\x6D\x61\x73\x74\x65\x72\x63\x61\x73\x74\x2F\x61\x73\x73\x65\x74\x73\x2F\x6D\x61\x73\x74\x65\x72\x2F\x70\x6C\x61\x79\x65\x72\x73\x2F","\x2F\x62\x6F\x6C\x74\x69\x63\x2E\x6D\x69\x6E\x2E\x63\x73\x73","\x6A\x51\x75\x65\x72\x79","\x2F\x2F\x61\x6A\x61\x78\x2E\x67\x6F\x6F\x67\x6C\x65\x61\x70\x69\x73\x2E\x63\x6F\x6D\x2F\x61\x6A\x61\x78\x2F\x6C\x69\x62\x73\x2F\x6A\x71\x75\x65\x72\x79\x2F\x33\x2E\x32\x2E\x31\x2F\x6A\x71\x75\x65\x72\x79\x2E\x6D\x69\x6E\x2E\x6A\x73","\x2F\x62\x6F\x6C\x74\x69\x63\x2E\x6D\x69\x6E\x2E\x6A\x73","\x64\x61\x74\x61\x2D\x70\x6C\x61\x79\x65\x72","\x61\x74\x74\x72","\x73\x63\x72\x69\x70\x74\x5B\x64\x61\x74\x61\x2D\x70\x6C\x61\x79\x65\x72\x5D","\x75\x6E\x64\x65\x66\x69\x6E\x65\x64","\x6C\x65\x6E\x67\x74\x68","\x66\x75\x6E\x63\x74\x69\x6F\x6E","\x70\x72\x6F\x74\x6F\x63\x6F\x6C","\x68\x74\x74\x70\x73\x3A","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x61\x70\x70\x2D\x73\x73\x6C","\x68\x74\x74\x70\x3A\x2F\x2F\x61\x70\x70","\x2E\x6D\x61\x73\x74\x65\x72\x63\x61\x73\x74\x2E\x63\x6F\x6D\x2E\x62\x72\x2F\x61\x73\x73\x65\x74\x73\x2F\x70\x6C\x61\x79\x65\x72\x2F\x6A\x73\x6F\x6E\x2F","\x2E\x6A\x73\x6F\x6E","\x67\x65\x74\x4A\x53\x4F\x4E"];(function(_0xea7fx1){var _0xea7fx2=_0x9dcb[0];function _0xea7fx3(_0xea7fx4){var _0xea7fx5=document[_0x9dcb[2]](_0x9dcb[1]);_0xea7fx5[_0x9dcb[3]]= _0xea7fx4;_0xea7fx5[_0x9dcb[4]]= _0x9dcb[5];_0xea7fx5[_0x9dcb[6]]= _0x9dcb[7];_0xea7fx5[_0x9dcb[8]]= _0x9dcb[9];document[_0x9dcb[12]](_0x9dcb[11])[0][_0x9dcb[10]](_0xea7fx5)}function _0xea7fx6(_0xea7fx4){var _0xea7fx7=document[_0x9dcb[2]](_0x9dcb[13]);_0xea7fx7[_0x9dcb[14]]= _0xea7fx4;_0xea7fx7[_0x9dcb[4]]= _0x9dcb[15];document[_0x9dcb[12]](_0x9dcb[11])[0][_0x9dcb[10]](_0xea7fx7)}_0xea7fx3(_0x9dcb[16]+ _0xea7fx2+ _0x9dcb[17]);if(!_0xea7fx1[_0x9dcb[18]]){_0xea7fx6(_0x9dcb[19])};var _0xea7fx8=setInterval(function(){if(_0xea7fx1[_0x9dcb[18]]){clearInterval(_0xea7fx8);_0xea7fx6(_0x9dcb[16]+ _0xea7fx2+ _0x9dcb[20]);var _0xea7fx9=jQuery(_0x9dcb[23])[_0x9dcb[22]](_0x9dcb[21]);if( typeof _0xea7fx9!= _0x9dcb[24]&& _0xea7fx9[_0x9dcb[25]]== 12){var _0xea7fxa=setInterval(function(){if( typeof playerBoltic== _0x9dcb[26]){clearInterval(_0xea7fxa);if(location[_0x9dcb[27]]== _0x9dcb[28]){var _0xea7fxb=_0x9dcb[29]}else {var _0xea7fxb=_0x9dcb[30]};var _0xea7fxc=_0xea7fxb+ _0x9dcb[31]+ _0xea7fx9+ _0x9dcb[32];$[_0x9dcb[33]](_0xea7fxc,function(_0xea7fxd){playerBoltic(_0xea7fxd)})}},500)}}},500)}(window))
+
+
+(function(window){
+	
+	var versaoBoltic = 'maoe1';
+    
+    function addCssHead(url){
+    	var css = document.createElement('link');	
+    	css.href = url; 
+    	css.type = 'text/css';
+    	css.rel  = 'stylesheet';
+		css.media = 'all';			
+		document.getElementsByTagName('head')[0].appendChild(css);
+    }
+    
+    function addScriptHead(url){
+    	var script = document.createElement('script');
+		script.src = url;   
+		script.type = 'text/javascript';
+		document.getElementsByTagName('head')[0].appendChild(script);
+    }
+    
+    
+    addCssHead('//cdn.rawgit.com/mastercast/assets/master/players/'+versaoBoltic+'/boltic.min.css');
+       
+    if(!window.jQuery){
+    	addScriptHead('//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js');
+    }
+    
+    var interval1 = setInterval(function(){
+    	if(window.jQuery){
+    		clearInterval(interval1);
+    		
+    		addScriptHead('//cdn.rawgit.com/mastercast/assets/master/players/'+versaoBoltic+'/boltic.min.js');
+    		
+    		var keyPlayer = jQuery('script[data-player]').attr('data-player');    		
+    		
+    		if(typeof keyPlayer != "undefined" && keyPlayer.length == 12){
+    			
+    			var interval2 = setInterval(function(){    				
+    				if(typeof playerBoltic == 'function'){
+    					clearInterval(interval2);
+    					
+    					if(location.protocol == 'https:'){
+    						var protocolo = 'https://app-ssl';
+    					}else{
+    						var protocolo = 'http://app';
+    					}
+    					
+    					var urlJSON = protocolo+'.mastercast.com.br/assets/player/json/'+keyPlayer+'.json';
+    					$.getJSON(urlJSON,function(dadosPlayer){													  
+					  		playerBoltic(dadosPlayer);
+						});
+						
+					} 
+    			}, 500);
+    			
+    		}
+    		
+    	}    
+	}, 500);
+	
+}(window));
